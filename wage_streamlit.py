@@ -4,9 +4,9 @@ import pydeck as pdk
 import plotly.express as px
 
 st.title('日本の賃金データのダッシュボード')
-df_jp_ind = pd.read_csv('csv_data\df_jp_ind.csv', encoding='shift_jis')
-df_jp_category = pd.read_csv('csv_data\df_jp_category.csv', encoding='shift_jis')
-df_pref_ind = pd.read_csv('csv_data\df_pref_ind.csv', encoding='shift_jis')
+df_jp_ind = pd.read_csv('./csv_data/df_jp_ind.csv', encoding='shift_jis')
+df_jp_category = pd.read_csv('./csv_data/df_jp_category.csv', encoding='shift_jis')
+df_pref_ind = pd.read_csv('./csv_data/df_pref_ind.csv', encoding='shift_jis')
 # df_jp_ind = pd.read_csv('.\csv_data\df_jp_ind.csv', encoding='shift_jis')
 # df_jp_category = pd.read_csv('.\csv_data\df_jp_category.csv', encoding='shift_jis')
 # df_pref_ind = pd.read_csv('.\csv_data\df_pref_ind.csv', encoding='shift_jis')
